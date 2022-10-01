@@ -1,9 +1,13 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    int P,T,R,SI;
+    int P,T,R,sum;
     scanf("%d%d%d",&P,&T,&R);
-    SI=(P*T*R)/100; 
-    printf("%d",SI);
+    sum=(P*R*T)/100;
+    printf("%d",sum);//printf("%.2lf",ci);
     return 0;
 }
+
+//sum=(P*R*T/100)
+//print("%0.0f"%sum)
